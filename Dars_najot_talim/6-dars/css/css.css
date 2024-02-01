@@ -1,0 +1,29 @@
+body{
+    background-color: red;
+}
+
+.box{
+    display: flex;
+    height: 1000px;
+    background-color: #fff;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+    /* align-items: center;
+    justify-content: space-around; */
+    /* align-content: space-between; */
+}
+
+.flex-box{
+    background-color: rgb(28, 166, 187);
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgb(29, 255, 78);
+}
+
+.flex-box:nth-child(3){
+    width: 400px;
+    height: 600px;
+    align-self: strengh;
+}

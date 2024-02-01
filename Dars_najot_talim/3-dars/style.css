@@ -1,0 +1,12 @@
+html {
+    background-color: yellow;
+}
+h1 {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 9, 9);
+}
+h2 {
+    color:blanchedalmond;
+    font-size: 16px;
+    background-color: black;
+}

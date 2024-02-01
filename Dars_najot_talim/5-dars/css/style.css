@@ -1,0 +1,138 @@
+.header-list{
+  padding: 0;
+  margin: 0;
+  text-align: center;   
+  list-style-type: none;
+}
+
+.wrapper2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-list-item{
+  font-weight: bold;
+  padding-right: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+
+}
+
+.header-link{
+  color: #000000;
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+.link {
+  display: block;
+  text-align:center;
+  text-decoration: none;
+  background-color: gray;
+}
+
+.box {
+  text-align: center;
+  border-style: double;
+  border: 2px solid green;
+  background-color: yellow;
+}
+
+.big-list{
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  text-align: center;
+  list-style-type: none;
+  /* background-color: yellow; */
+  background-color: hsl(233, 50%, 50%);
+}
+
+.big-list-item{
+  /* padding-left: 50px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid green;
+  background-color: aquamarine;
+  padding: 10px 30px 0px 50px;
+}
+
+.quti{
+  background-color: red;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 1px solid blue;
+  text-align: center;
+}
+
+.element {
+  margin: 15px;
+}
+
+.element2 {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  background-color: yellow;
+
+}
+
+.quti3 {
+  display: inline-block;
+  padding: 10px;
+  margin: 15px;
+  background-color: cyan;
+}
+
+.yana-list{
+  list-style-type: none;
+  margin: 0PX;
+  padding: 0PX;
+}
+
+.container{
+  width: 782px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 1px solid #888;
+}
+
+.wrapper {
+  padding: 0px 25px;
+  border-left: 1px dashed #999;
+  border-right: 1px dashed #999;
+
+}
+
+.text{
+  font-style: italic;
+  line-height: 31px;
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #17206a;
+  color: #ffffff;
+}
+
+.footer a {
+  color: #ffffff;
+}

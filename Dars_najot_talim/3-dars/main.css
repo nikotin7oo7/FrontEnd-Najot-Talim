@@ -1,0 +1,27 @@
+html{
+    background-color: pink;
+}
+h2 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+.klas {
+    background-color: #fff;
+}
+
+.second-header {
+    color: blue;
+}
+
+.class1 {
+    text-transform: lowercase;
+    text-align: center;
+    border: #fff;
+}
+
+.list {
+    list-style: none;
+    list-style-type: none;
+    text-align: center;
+}

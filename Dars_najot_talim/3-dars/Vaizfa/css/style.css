@@ -1,0 +1,55 @@
+body {
+    background-color: #00d9af;
+}
+
+.list {
+    width: 800px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    list-style-type: none;
+}
+
+.item {
+    
+    display: inline-block;
+    width: 200px;
+}
+
+.wrapper {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.domain, .space {
+    border-bottom: 1px solid gray;
+}
+
+.personal {
+    color: gray;
+}
+
+.team {
+    color: yellow;
+}
+
+.corparative {
+    color: tomato;
+}
+
+.upper-text {
+    text-transform: uppercase;
+}
+
+.price {
+    font-size: 30px;
+}
+
+.corparative.price {
+    font-size: 40px;
+}

@@ -1,0 +1,111 @@
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/mulish-v12-latin-200.woff2') format('woff2'), 
+         url('../fonts/mulish-v12-latin-200.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-display: swap; 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/mulish-v12-latin-300.woff2') format('woff2'), 
+         url('../fonts/mulish-v12-latin-300.woff') format('woff');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/mulish-v12-latin-regular.woff2') format('woff2'),
+         url('../fonts/mulish-v12-latin-regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-display: swap; 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/mulish-v12-latin-500.woff2') format('woff2'),
+         url('../fonts/mulish-v12-latin-500.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-display: swap; 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/mulish-v12-latin-700.woff2') format('woff2'), 
+         url('../fonts/mulish-v12-latin-700.woff') format('woff');
+  }
+ 
+  @font-face {
+    font-display: swap; 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/mulish-v12-latin-900.woff2') format('woff2'), 
+         url('../fonts/mulish-v12-latin-900.woff') format('woff'); 
+  }
+  
+html{
+    font-family: "Mulish", "Arial" , sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1246px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    margin-top: 56px;
+    justify-content: space-between;
+}
+
+.header-list{
+    display: flex;
+    list-style: none;
+}
+
+.header-list-link{
+    margin-left: 40px;
+    opacity: 0.5;
+    color: #1F1534;
+    text-decoration: none;
+}
+
+.active{
+    opacity: 1;
+    font-weight: 700;
+}
+
+.hero{
+    display: flex;
+    margin-top: 84px;
+}
+
+.hero-left{
+    width: 445px;
+    margin-top: 18px;
+}
+
+.hero-link-button{
+    /* width: 200px;
+    height: 60px; */
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 56px;
+    background-color: #458FF6;
+    text-decoration: none;
+}
